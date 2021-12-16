@@ -17,7 +17,7 @@ function T = magicOA(varargin)
 % the first place and the result might seem unreliable. Anyhow, 
 % especially since case 1 or 2 were considered in the first place, 
 % it might be worth giving case 3 a chance.
-
+format long
 if length(varargin) ==2
     OA =  mod(varargin{1},180);
     P =  varargin{2};
