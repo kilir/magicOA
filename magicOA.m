@@ -13,8 +13,10 @@ function T = magicOA(varargin)
 % case 3: neither opening angle nor pressure is known
 % T = magicOA
 %
-% Note: the uncertainty that comes with case 3 might be high and the result
-% might be unreliable, but anyhow it might be worth giving it a try
+% Note: the uncertainty that comes with case 3 might appear high in 
+% the first place and the result might seem unreliable. Anyhow, 
+% especially since case 1 or 2 were considered in the first place, 
+% it might be worth giving case 3 a chance.
 
 if length(varargin) ==2
     OA =  mod(varargin{1},180);
