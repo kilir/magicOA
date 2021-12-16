@@ -17,7 +17,16 @@ function T = magicOA(varargin)
 % the first place and the result might seem unreliable. Anyhow, 
 % especially since case 1 or 2 were considered in the first place, 
 % it might be worth giving case 3 a chance.
+
 format long
+
+wb = waitbar(0,'Please be patient, magic is happening ...');
+for i = 1:100
+    waitbar(i / randi([10 1e2],1))
+    pause(0.2)
+end
+close(wb)
+
 if length(varargin) ==2
     OA =  mod(varargin{1},180);
     P =  varargin{2};
