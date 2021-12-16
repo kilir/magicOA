@@ -1,7 +1,7 @@
 function T = magicOA(varargin)
-% calculate the super precise temprature from a quartz c-axis opening
-% angle, error of the fit is about 50 degree
-% based on Faleiros et al.,2016
+% calculate a very precise temperature from a quartz c-axis opening
+% angle, error of the fit is about 50 degree.
+% Use case 1 and 2 is based on Faleiros et al.,2016.
 %
 % Usage:
 % case1: opening angle (in degree) and P (in kBar) is known
