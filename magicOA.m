@@ -15,8 +15,9 @@ function T = magicOA(varargin)
 %
 % Note: the uncertainty that comes with case 3 might appear high in 
 % the first place and the result might seem unreliable. Anyhow, 
-% especially since case 1 or 2 were considered in the first place, 
-% it might be worth giving case 3 a chance.
+% especially if case 1 or 2 were considered and did not yield the
+% desired results in the first place, it might be worth giving 
+% case 3 a chance.
 
 format long
 
